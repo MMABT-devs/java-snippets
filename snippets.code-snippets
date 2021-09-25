@@ -1,0 +1,85 @@
+{
+    "Generate Class Code": {
+        "prefix": "!genClassCode",
+        "body": [
+            "public class ${1:Class} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Enum Code": {
+        "prefix": "!genEnumCode",
+        "body": [
+            "public enum ${1:Enum} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Class Code with Package": {
+        "prefix": "!genClassCodeWithPackage",
+        "body": [
+            "package packagename.name;",
+            "$0",
+            "public class ${1:Class} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Enum Code with Package": {
+        "prefix": "!genEnumCodeWithPackage",
+        "body": [
+            "package packagename.name;",
+            "$0",
+            "public enum ${1:Enum} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Interface Code": {
+        "prefix": "!genInterfaceCode",
+        "body": [
+            "public interface ${1:Interface} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Interface Code with Package": {
+        "prefix": "!genInterfaceCodeWithPackage",
+        "body": [
+            "package packagename.name;",
+            "$0",
+            "public interface ${1:Interface} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Record Code": {
+        "prefix": "!genRecCode",
+        "body": [
+            "public record ${1:Record} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Record Code with Package": {
+        "prefix": "!genRecCodeWithPackage",
+        "body": [
+            "package packagename.name;",
+            "$0",
+            "public record ${1:Record} {",
+            "$0",
+            "}"
+        ]
+    },
+    "Generate Text Code": {
+        "prefix": "!genTextPrnCode",
+        "body": [
+            "package packagename.name;",
+            "$0",
+            "public class ${1:Class} {",
+            "   public static void main(String args[]) {",
+            "       System.out.println(\"${1:Text}\")",
+            "}"
+        ]
+    }
+}
