@@ -5,9 +5,9 @@
     "version": "1.0.0",
     "icon": "icon.png",
     "repository": {
-        "type": "Git"
+        "type": "Git",
         "url": "https://github.com/MMABT-devs/java-snippets"
-    }
+    },
     "engines": {
         "vscode": "^1.60.0"
     },
