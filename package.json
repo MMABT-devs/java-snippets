@@ -3,6 +3,11 @@
     "displayName": "Java Snippets",
     "description": "Adds useful Java Snippets",
     "version": "1.0.0",
+    "icon": "icon.png",
+    "repository": {
+        "type": "Git"
+        "url": "https://github.com/MMABT-devs/java-snippets"
+    }
     "engines": {
         "vscode": "^1.60.0"
     },
