@@ -1,0 +1,20 @@
+{
+    "name": "jvsnip",
+    "displayName": "Java Snippets",
+    "description": "Adds useful Java Snippets",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
