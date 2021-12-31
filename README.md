@@ -8,12 +8,12 @@ You can type the shortcut, for example !genClassCode and then click Tab button o
 
 # Basic Shortcuts
 Lists:
-!genClassCode
-!genClassCodeWithPackage
-!genEnumCode
-!genEnumCodeWithPackage
-!genInterfaceCode
-!genInterfaceCodeWithPackage
-!genRecCode
-!genRecCodeWithPackage
-!genTextPrnCode
+  !genClassCode
+  !genClassCodeWithPackage
+  !genEnumCode
+  !genEnumCodeWithPackage
+  !genInterfaceCode
+  !genInterfaceCodeWithPackage
+  !genRecCode
+  !genRecCodeWithPackage
+  !genTextPrnCode
